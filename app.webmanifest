@@ -16,5 +16,5 @@
     }
   ],
   "background_color": "black",
-  "start_url": "/index.html"
+  "start_url": "./testkemialudo/index.html"
 }
