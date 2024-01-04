@@ -73,3 +73,14 @@ function checkAnswer() {
 function deleteAnsUser() {
   document.getElementById('answer_user').value = "";
 }
+
+
+// Register service worker to control making site work offline
+// https://github.com/mdn/pwa-examples/blob/main/a2hs/index.js
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/sw.js')
+    .then(() => {
+      console.log('Service Worker Registered');
+    });
+}
