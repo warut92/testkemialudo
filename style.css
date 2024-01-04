@@ -4,3 +4,10 @@ body, button {
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   font-family: 'Sarabun', sans-serif;
 }
+
+.score {
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
